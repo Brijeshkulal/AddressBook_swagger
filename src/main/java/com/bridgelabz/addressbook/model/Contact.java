@@ -21,6 +21,7 @@ public class Contact {
 	private int contactId;
 	private String firstName;
 	private String lastName;
+	private String mail;
 	private String address;
 	private String city;
 	private String state;
@@ -36,6 +37,7 @@ public class Contact {
 		this.firstName = contactDTO.firstName;
 		this.lastName = contactDTO.lastName;
 		this.address = contactDTO.address;
+		this.mail = contactDTO.mail;
 		this.state = contactDTO.state;
 		this.city = contactDTO.city;
 		this.zip = contactDTO.zip;
